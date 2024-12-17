@@ -1,1 +1,1 @@
-# SEOEM-Front-End-24
+# SEOEM Front End Geliştirmeye Giriş Eğitimi 24'
