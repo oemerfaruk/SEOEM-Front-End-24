@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>İletişim</title>
+</head>
+<body style="background-color: rgb(247, 255, 249);">
+    <header>
+        <nav style="background-color: rgb(187, 255, 232);">
+            <a style="text-decoration: none; color: rgb(255, 255, 255); background-color: rgb(25, 25, 136);" href="1. index.html">Ana Sayfa</a>
+            <a style="text-decoration: none; color: rgb(255, 255, 255); background-color: rgb(38, 2, 38);" href="2. deep-space.html">Deep Space</a>
+            <a style="text-decoration: none; color: rgb(255, 255, 255); background-color: rgb(14, 40, 5);" href="3. one-small-step.html">One Small Step</a>
+            <a style="text-decoration: none; color: rgb(255, 255, 255); background-color: rgb(3, 57, 77);" href="4. contact.html">İletişim</a>
+        </nav>
+    </header>
+    
+    <h1>İletişim</h1>
+
+    <form autocomplete="off">
+        <label for="name">Adınız</label>
+        <input type="text" id="name" name="name" placeholder="Adınızı girin." required>
+
+        <br><br>
+
+        <label for="surname">Soyadınız</label>
+        <input type="text" id="surname" name="surname" placeholder="Soyadınızı girin." autocomplete="off">
+
+        <br><br>
+
+        <label for="email">E-Mail</label>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+
+        <label for="tel">Telefon</label>
+        <input type="tel" name="tel" id="tel" minlength="10" maxlength="12">
+
+        <br><br>
+
+        <label for="box">Size nasıl ulaşalım?</label><br>
+        <input type="checkbox" name="s1" id="s1" value="SMS">
+        <label for="s1">SMS</label><br>
+        <input type="checkbox" name="s2" id="s2" value="Whatsapp">
+        <label for="s2">Whatsapp</label><br>
+        <input type="checkbox" name="s3" id="s3" value="Mail">
+        <label for="s3">Mail</label><br><br>
+
+        <label for="city">Şehriniz</label>
+        <select name="city" id="city">
+            <option value="İstanbul">İstanbul</option>
+            <option value="Bursa">Bursa</option>
+            <option value="Ankara">Ankara</option>
+            <option value="İzmir">İzmir</option>
+            <option value="Artvin">Artvin</option>
+            <option value="Erzurum">Erzurum</option>
+            <option value="Denizli">Denizli</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Gönder">
+    </form>
+    <hr>
+
+    <address>
+        Yıldız Teknik Üniversitesi, Davutpaşa Kampüsü <br>
+        Esenler/İstanbul
+    </address>
+    <br>
+    <a href="mailto:xxx@yyy.zzz">Mail at.</a><br>
+    <a href="tel:+905664321144">Telefon et.</a>
+    
+</body>
+</html>
