@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box{
+            width: 250px;
+            height: 250px;
+            border: 2px black dotted;
+            font-size: xx-large;
+            color: #fff !important;
+        }
+        .box-green{
+            margin: 15px 0px;
+            background-color: green;
+
+        }
+        .box-red{
+            margin: 25px 50px;
+            background-color: red;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box-green">
+        <p>Birinci Kutu</p>
+    </div>
+    <div class="box box-red">
+        <p style="color:#000">İkinci Kutu</p>
+    </div>
+</body>
+</html>

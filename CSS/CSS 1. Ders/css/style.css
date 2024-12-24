@@ -1,0 +1,43 @@
+*{
+    /* background-color: blanchedalmond; */
+}
+body{
+    /* background-color: antiquewhite; */
+    text-align: right;
+}
+p{
+    line-height: 20px;
+}
+
+.head{
+    color:red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head-big{
+    letter-spacing: 5px;
+    font-size: xx-large;
+}
+.head-medium{
+    letter-spacing: 3px;
+    font-size: large;
+}
+.head-small{
+    letter-spacing: 1px;
+    font-size: small;
+}
+
+
+article{
+    background-color: azure;
+    font-family: "sans-serif";
+    text-align: left;
+}
+.article p{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#first-article{
+    background-color: lightblue;
+}
