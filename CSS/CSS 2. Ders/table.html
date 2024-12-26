@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, tr, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 75%;
+            margin: auto;
+            font-size: 1.5rem;
+        }
+        th, td{
+            padding: 5px;
+        }
+        thead th{
+            background-color: gray;
+        }
+        tbody tr{
+            text-align: center;
+        }
+        tbody tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+        tbody tr:nth-child(odd){
+            background-color: #ddd;
+        }
+        tbody tr:hover{
+            background-color: aquamarine;
+        }
+        tbody tr td:hover{
+            background-color: blue;
+            color:white;
+        }
+        tbody tr td:active{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Adı</th>
+            <th>Okul</th>
+            <th>Seviye</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Melike Sena Ankara</td>
+                <td>Boğaziçi Üniversitesi</td>
+                <td>Yüksek Lisans</td>
+            </tr>
+            <tr>
+                <td>Baran Hüseyin Yapıcı</td>
+                <td>Galatasaray Üniveristesi</td>
+                <td>Lisans</td>
+            </tr>
+            <tr>
+                <td>Onur Akın Akbal</td>
+                <td>Yıldız Teknik Üniversitesi</td>
+                <td>Lisans</td>
+            </tr>
+            <tr>
+                <td>Demet Merve Durmuş</td>
+                <td>Yıldız Teknik Üniversitesi</td>
+                <td>Lisans</td>
+            </tr>
+            <tr>
+                <td>Züleyha Gökçe</td>
+                <td>Abant İzzet Baysal Üniversitesi</td>
+                <td>Lisans</td>
+            </tr>
+            <tr>
+                <td>Feyza Güneri</td>
+                <td>Boğaziçi Anadolu Kız İmam Hatip Lisesi</td>
+                <td>Lise</td>
+            </tr>
+            <tr>
+                <td>Hayrunnisa Okumuş</td>
+                <td>Boğaziçi Anadolu Kız İmam Hatip Lisesi</td>
+                <td>Lise</td>
+            </tr>
+            <tr>
+                <td>Sude Şahin</td>
+                <td>Boğaziçi Anadolu Kız İmam Hatip Lisesi</td>
+                <td>Lise</td>
+            </tr>
+            
+
+        </tbody>
+    </table>
+</body>
+</html>
