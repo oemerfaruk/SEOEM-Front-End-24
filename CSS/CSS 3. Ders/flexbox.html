@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Flexbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: aquamarine;
+            width: 75%;
+            min-height: 300px;
+            margin: auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .box{
+            
+            background-color: aliceblue;
+            border: 2px red solid;
+            margin: 10px;
+        }
+        .box-1{
+            flex-grow: 1;
+        }
+        .box-2{
+            flex-grow: 6;
+        }
+        .box-3{
+            flex-grow: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <article class="box box-1"><p>Lorem, ipsum dolor.</p></article>
+        <article class="box box-2"><p>Lorem, ipsum dolor.</p></article>
+        <article class="box box-3"><p>Lorem, ipsum dolor.</p></article>
+    </div>
+</body>
+</html>

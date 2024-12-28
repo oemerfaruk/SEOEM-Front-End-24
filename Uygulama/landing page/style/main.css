@@ -1,0 +1,114 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 50px;
+}
+nav ul{
+    list-style: none;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 5px;
+
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #555;
+}
+.about{
+    width: 30%;
+    margin: auto;
+    padding: 25px 0;
+    text-align: center;
+}
+.about h2, p{
+    margin: 10px 0;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+.course{
+    max-width: 50%;
+    display: flex;
+}
+.course-img{
+    border-radius: 25px;
+    margin: 10px;
+    filter: grayscale(1);
+    transition: all 0.5s ease;
+}
+.course-img:hover{
+    filter: grayscale(0);
+}
+.course-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 25px 0;
+}
+.course-header{
+    color: red;
+}
+
+
+
+.btn{
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+
+
+    text-align: center;
+    text-decoration: none;    
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+.btn-orange{
+    background-color: orangered;
+    color: white;
+}
+.btn-orange:hover{
+    background-color: #ff9900;
+    border-radius: 25px;
+}
+.btn-green{
+    background-color: green;
+    color: white;
+}
+.btn-green:hover{
+    background-color: rgb(87, 190, 87);
+    border-radius: 25px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 50px auto;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.form input{
+    height: 50px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+.form textarea{
+    height: 100px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
