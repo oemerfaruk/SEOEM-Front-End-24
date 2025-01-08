@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        
+        .container{
+            display: grid;
+            grid-template-columns: 50px 50px 50px 50px;
+            
+            place-content: center center;
+
+            height: 400px;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+        .container div{
+            background-color: aliceblue;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+        .item-1{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Grid Layout</h1>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>

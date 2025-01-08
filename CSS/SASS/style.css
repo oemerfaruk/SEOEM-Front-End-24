@@ -1,0 +1,35 @@
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  background-color: rgb(250, 25, 50);
+}
+nav h1 {
+  color: #2fccff;
+  text-align: center;
+}
+nav ul {
+  justify-content: space-around;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 20px;
+}
+
+ul {
+  color: #1a7dfc;
+}
+
+.info {
+  background: DarkGray;
+  color: #fff;
+}
+
+.alert {
+  background: DarkGreen;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,33 @@
+@use 'base'
+
+@mixin theme($theme: DarkGray)
+    background: $theme
+    color: #fff
+
+%dsp
+    display: flex
+    justify-content: space-evenly
+
+nav
+    background-color: base.$bg-red
+
+    h1
+        color: base.$primary-color
+        text-align: center
+
+    ul
+        @extend %dsp
+        justify-content: space-around
+        list-style: none
+
+
+        li
+            margin: 0 20px
+
+ul
+    color: base.$primary-color-dark
+
+.info
+    @include theme()
+.alert
+    @include theme($theme: DarkGreen)

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+    .btn{
+        @apply text-xl font-semibold border py-2 px-4 rounded-lg;
+    }
+
+    .btn-danger{
+        @apply text-red-500 border-red-500 bg-red-100;
+    }
+    .btn-danger:hover{
+        @apply text-red-700 border-red-700 bg-red-200;
+    }
+
+    .btn-primary{
+        @apply text-blue-500 border-blue-500 bg-blue-100;
+    }
+    .btn-primary:hover{
+        @apply text-blue-700 border-blue-700 bg-blue-200;
+    }
+}
