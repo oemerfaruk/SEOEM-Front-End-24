@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+
+@layer base{
+    body{
+        @apply font-sans;
+        font-family: "Rubik Vinyl", serif;
+    }
+
+    h1{
+        @apply text-3xl font-semibold;
+    }
+    h2{
+        @apply text-2xl font-semibold;
+    }
+    h3{
+        @apply text-xl font-semibold;
+    }
+}
+
+@layer utilities{
+    .font-rubik{
+        font-family: "Rubik Vinyl", serif;
+    }
+}
+@layer components{
+    .btn{
+        @apply text-xl font-semibold border py-2 px-4 rounded-lg;
+    }
+
+    .btn-danger{
+        @apply text-danger border-danger bg-red-100;
+    }
+    .btn-danger:hover{
+        @apply text-red-700 border-red-700 bg-red-200;
+    }
+
+    .btn-primary{
+        @apply text-blue-500 border-blue-500 bg-blue-100;
+    }
+    .btn-primary:hover{
+        @apply text-blue-700 border-blue-700 bg-blue-200;
+    }
+}

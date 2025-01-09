@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply text-4xl font-semibold;
+    }
+    h2{
+        @apply text-3xl font-semibold;
+    }
+    h3{
+        @apply text-2xl font-semibold;
+    }
+}
+
+@layer utilities{
+    nav ul li a{
+        @apply bg-seoem-200 text-seoem-100 font-semibold rounded-xl px-2 py-2 transition ease-in-out delay-150;
+    }
+    nav ul li a:hover{
+        @apply bg-seoem-100 text-seoem-200;
+    }
+}
+
+@layer components{
+    .social-link{
+        @apply text-2xl text-white hover:text-seoem-200 p-2 transition ease-in-out delay-150;
+    }
+    .social-link:hover{
+        @apply scale-125;
+    }
+    .btn{
+        @apply bg-seoem-200 text-seoem-100 w-1/4 mx-auto font-semibold rounded-xl px-2 py-2 my-4 transition ease-in-out delay-150;
+    }
+}
