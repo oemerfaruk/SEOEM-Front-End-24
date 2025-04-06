@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.nav-li{
+    padding: 5px 20px;
+    margin: 0px 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: blue;
+    font-weight: 900;
+}
+.nav-li:hover{
+    scale: 125%;
+    background-color: royalblue;
+}
+
+article p{
+    text-align: justify;
+}
+
+h1, h2{
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

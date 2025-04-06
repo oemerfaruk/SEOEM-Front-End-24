@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    background-color: #212121;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+nav ul{
+    padding: 0;
+}

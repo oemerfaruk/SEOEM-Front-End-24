@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 10px 0px;
+
+}
+header img{
+    width: 80px;
+}
+
+nav{
+    background-color: #333;
+    
+
+}
+nav ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+nav ul li{
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+nav ul li:hover{
+    background-color: #444;
+}
